@@ -1,0 +1,72 @@
+
+html{
+    height:100%;width:100%
+}
+
+*{margin:0;padding:0}
+body{
+    background-image:url("../img/main.jpg");
+    background-repeat:repeat;color:#000;
+    font:14px/25px Arial,Helvetica,sans-serif;height:100%;
+    min-width:960px;
+    width:100%}
+
+header{
+    background-image:url("../img/captura.jpg");
+       background-repeat:no-repeat;border:solid;
+       border-color:#ebebec;border-radius:15px;height:100px;
+       margin:auto;width:960px}
+nav{
+    background-image:url("../img/nav.jpg");
+    border:solid;
+    border-color:#ebebec;border-radius:12px 8px 8px 12px;height:64px;
+    margin:auto;width:960px}
+
+section{/*background-image:url("../img/ofertas.png");*/background: #fff;
+    border:solid;
+    border-color:#ebebec;
+    border-radius:12px 12px 0 0;
+    height:500px;margin:auto;
+    width:960px}
+aside{
+    background:#fff;
+    border:solid;
+    border-bottom:none;
+    border-color:#ebebec;
+    border-top:none;height:100px;
+    margin:auto;width:960px}
+footer{background:#f0f0f0;
+       border:solid;
+       border-color:#ebebec;
+       border-radius:0 0 12px 12px;
+       height:70px;margin:auto;
+       width:960px}
+
+ul{
+    list-style:none;
+    margin:0;padding:0
+}
+ul.menu{
+    border-right:white   1px solid;
+    display:inline-block;
+    float:left;margin:0 1px 0 0
+}
+
+ul.menu li{
+    // border-left:#82ceda 1px solid;  , border-right:#53b2c3 1px solid;
+    background:url("../img/transp.png") 0 0 repeat;
+    border-left:white 1px solid;
+    border-right:white 1px solid;
+    float:left;line-height:17px;
+    margin:0 0 0 0
+}
+ul.menu li a{
+    color:#fff;
+    display:block;
+    font-size:13px;
+    font-weight:bold;
+    line-height:17px;
+    padding:23px 28px 24px 28px;
+    text-decoration:none
+}
+ul.menu li.home-page{background:url("../img/transp.png") 0 0 repeat;border-radius:8px 0 0 8px;border:none !important;display:inline-block}ul.menu li:hover,ul.menu li.current{background:url("../img/current.jpg") 0 0 repeat-x #000;border-left:#000 1px solid;border-right:#000 1px solid}ul.menu li.home-page a{padding:21px 22px 24px 23px !important}ul.menu li.home-page span{background:url("../img/home-page-img.png") 0 0 no-repeat;display:block;height:19px;width:19px}.ft{height:50px;margin:10px auto;width:600px}.ft p{text-align:center}#dialogo{display:none}#dialogo p{text-align:center}.redondes{border-radius:5px;height:25px;width:100%}
